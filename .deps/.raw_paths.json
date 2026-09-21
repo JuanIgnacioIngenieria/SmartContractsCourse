@@ -107,5 +107,14 @@
   "contracts@0.4.0/DeFi/StakingT.sol": ".deps/npm/contracts@0.4.0/DeFi/StakingT.sol",
   "contracts@0.4.0/DeFi/StakingTo.sol": ".deps/npm/contracts@0.4.0/DeFi/StakingTo.sol",
   "contracts@0.4.0/DeFi/StakingTok.sol": ".deps/npm/contracts@0.4.0/DeFi/StakingTok.sol",
-  "contracts@0.4.0/DeFi/StakingToke.sol": ".deps/npm/contracts@0.4.0/DeFi/StakingToke.sol"
+  "contracts@0.4.0/DeFi/StakingToke.sol": ".deps/npm/contracts@0.4.0/DeFi/StakingToke.sol",
+  "@openzeppelin/contracts@5.6.0/token/ERC2/ERC20.sol": ".deps/npm/@openzeppelin/contracts@5.6.0/token/ERC2/ERC20.sol",
+  "@openzeppelin/contracts@5.6.0/token/ERC/ERC20.sol": ".deps/npm/@openzeppelin/contracts@5.6.0/token/ERC/ERC20.sol",
+  "@openzeppelin/contracts@5.6.0/token/ERC7/ERC20.sol": ".deps/npm/@openzeppelin/contracts@5.6.0/token/ERC7/ERC20.sol",
+  "@openzeppelin/contracts@5.6.0/token/ERC72/ERC20.sol": ".deps/npm/@openzeppelin/contracts@5.6.0/token/ERC72/ERC20.sol",
+  "@openzeppelin/contracts@5.6.0/token/ERC721/ERC20.sol": ".deps/npm/@openzeppelin/contracts@5.6.0/token/ERC721/ERC20.sol",
+  "@openzeppelin/contracts@5.6.0/token/ERC721/ERC2.sol": ".deps/npm/@openzeppelin/contracts@5.6.0/token/ERC721/ERC2.sol",
+  "@openzeppelin/contracts@5.6.0/token/ERC721/ERC.sol": ".deps/npm/@openzeppelin/contracts@5.6.0/token/ERC721/ERC.sol",
+  "@openzeppelin/contracts@5.6.0/token/ERC721/ERC7.sol": ".deps/npm/@openzeppelin/contracts@5.6.0/token/ERC721/ERC7.sol",
+  "@openzeppelin/contracts@5.6.0/token/ERC721/ERC72.sol": ".deps/npm/@openzeppelin/contracts@5.6.0/token/ERC721/ERC72.sol"
 }
