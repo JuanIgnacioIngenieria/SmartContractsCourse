@@ -1,0 +1,232 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract StakingToken",
+						"name": "_stakingToken",
+						"type": "address"
+					},
+					{
+						"internalType": "contract MyToken",
+						"name": "_myToken",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "hasStaked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isStaking",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "issueTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myToken",
+				"outputs": [
+					{
+						"internalType": "contract MyToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "stakeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stakers",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "stakingBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stakingToken",
+				"outputs": [
+					{
+						"internalType": "contract StakingToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ustakeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DeFi/DeFi_management.sol": "managment"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": [
+			":@openzeppelin/contracts/=@openzeppelin/contracts@5.6.0/"
+		]
+	},
+	"sources": {
+		"contracts/DeFi/DeFi_management.sol": {
+			"keccak256": "0x2d4f5dfe61731af0a5f94328c2a83d5b6f07389b58b24a70bdbc8a1662d1b16a",
+			"urls": [
+				"bzz-raw://2c76e9f0fb8269b8bece2b255482d7366dd6830fc8658e5e9aa0e3cd6b3a32f1",
+				"dweb:/ipfs/QmcHybfiNW6wLJZVrh9BnndsjmWL8qU93FCp1B5h33tmYk"
+			]
+		},
+		"contracts/DeFi/MyToken.sol": {
+			"keccak256": "0x70472f6806583b601a199108ad9275e747ff14bf763af298c2c047ffd6af733b",
+			"urls": [
+				"bzz-raw://62fa15927fe4c72d668d4348a76e12225c6745551cf25c69688ba275d19b7596",
+				"dweb:/ipfs/QmUDMAQLk8zGRPqabgSj1emm3etcGL6B7eNTVKFcQ7Kqff"
+			]
+		},
+		"contracts/DeFi/StakingToken.sol": {
+			"keccak256": "0xf2c414a9b03e636eac33291e3b6ffcf6ab4a0a54822e56b93330b9e3592dd4fd",
+			"urls": [
+				"bzz-raw://41597d0431ed20b6b28d0c3d6ebfaa13f237c8100954eb7eb2b35e299d966c6a",
+				"dweb:/ipfs/QmeExMq4aSixgLAvow5CMS5Ba2D8MA7Put6rp5Sk5dhSGk"
+			]
+		}
+	},
+	"version": 1
+}

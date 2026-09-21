@@ -96,5 +96,16 @@
   "@openzeppelin/contracts@4.4/access/Ownable.sol": ".deps/npm/@openzeppelin/contracts@4.4/access/Ownable.sol",
   "@openzeppelin/contracts@4.4.2/access/Ownable.sol": ".deps/npm/@openzeppelin/contracts@4.4.2/access/Ownable.sol",
   "@openzeppelin/contracts@4.4./access/Ownable.sol": ".deps/npm/@openzeppelin/contracts@4.4./access/Ownable.sol",
-  "@openzeppelin/contracts@4./access/Ownable.sol": ".deps/npm/@openzeppelin/contracts@4./access/Ownable.sol"
+  "@openzeppelin/contracts@4./access/Ownable.sol": ".deps/npm/@openzeppelin/contracts@4./access/Ownable.sol",
+  "contracts@0.4.0/DeFi/S.sol": ".deps/npm/contracts@0.4.0/DeFi/S.sol",
+  "contracts@0.4.0/DeFi/St.sol": ".deps/npm/contracts@0.4.0/DeFi/St.sol",
+  "contracts@0.4.0/DeFi/Sta.sol": ".deps/npm/contracts@0.4.0/DeFi/Sta.sol",
+  "contracts@0.4.0/DeFi/Stak.sol": ".deps/npm/contracts@0.4.0/DeFi/Stak.sol",
+  "contracts@0.4.0/DeFi/Staki.sol": ".deps/npm/contracts@0.4.0/DeFi/Staki.sol",
+  "contracts@0.4.0/DeFi/Stakin.sol": ".deps/npm/contracts@0.4.0/DeFi/Stakin.sol",
+  "contracts@0.4.0/DeFi/Staking.sol": ".deps/npm/contracts@0.4.0/DeFi/Staking.sol",
+  "contracts@0.4.0/DeFi/StakingT.sol": ".deps/npm/contracts@0.4.0/DeFi/StakingT.sol",
+  "contracts@0.4.0/DeFi/StakingTo.sol": ".deps/npm/contracts@0.4.0/DeFi/StakingTo.sol",
+  "contracts@0.4.0/DeFi/StakingTok.sol": ".deps/npm/contracts@0.4.0/DeFi/StakingTok.sol",
+  "contracts@0.4.0/DeFi/StakingToke.sol": ".deps/npm/contracts@0.4.0/DeFi/StakingToke.sol"
 }
